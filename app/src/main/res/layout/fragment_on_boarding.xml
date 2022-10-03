@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".flexiicar_app.login.OnBoarding$PlaceholderFragment">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:textAlignment="center"
+                android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/section_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/section_label"
+                style="@style/TextAppearance.AppCompat.Headline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/selected_dot"
+                android:layout_below="@id/section_img"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                tools:text=""
+                android:textSize="18dp"/>
+
+        </RelativeLayout>
+        </RelativeLayout>
+
+
+    </FrameLayout>
+
+</FrameLayout>
